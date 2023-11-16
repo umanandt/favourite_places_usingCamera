@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "expo-camera":
+        {
+          "cameraPermission": "To let you add photos to your profile or events."
+        },
+    "plugins": ["expo-image-picker"]
+   
   }
 }
